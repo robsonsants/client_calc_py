@@ -13,4 +13,4 @@ Perform Mathematical Operations:
 
 Makes POST requests to perform operations such as addition, subtraction, multiplication, and division.
 
-Example endpoint for sum: https://calculadora-fxpc.onrender.com/operation/sum/5/3.
+Example endpoint for sum: https://calculadora-fxpc.onrender.com/operation/soma/5/3.
