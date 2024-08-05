@@ -41,12 +41,12 @@ A função realizar_operacao(operacao, param1, param2) envia uma requisição PO
 ## Executar o Script
 Para executar o script, basta rodar o seguinte comando no terminal:
 
-     ```bash
     python cliente_calculadora.py
 
 ## Exemplo de Saída
-Request Status Code (listar_operacoes): 200
-Operações disponíveis: {'operations': [{'method': 'POST', 'name': 'Soma', 'path': '/operation/soma/param1/param2'}, {'method': 'POST', 'name': 'Subtracao', 'path': '/operation/subtracao/param1/param2'}, {'method': 'POST', 'name': 'Multiplicacao', 'path': '/operation/multiplicacao/param1/param2'}, {'method': 'POST', 'name': 'Divisao', 'path': '/operation/divisao/param1/param2'}]}
+
+```bash
+
 Request Status Code (realizar_operacao): 200
 Response Content: {"result":8.0}
 
