@@ -45,26 +45,25 @@ Para executar o script, basta rodar o seguinte comando no terminal:
 
 ## Exemplo de Saída
 
-```bash
+      ```bash
+      Request Status Code (realizar_operacao): 200
+      Response Content: {"result":8.0}
 
-Request Status Code (realizar_operacao): 200
-Response Content: {"result":8.0}
+      Resultado da soma: {'result': 8.0}
+      Request Status Code (realizar_operacao): 200
+      Response Content: {"result":6.0}
 
-Resultado da soma: {'result': 8.0}
-Request Status Code (realizar_operacao): 200
-Response Content: {"result":6.0}
+      Resultado da subtração: {'result': 6.0}
+      Request Status Code (realizar_operacao): 200
+      Response Content: {"result":42.0}
 
-Resultado da subtração: {'result': 6.0}
-Request Status Code (realizar_operacao): 200
-Response Content: {"result":42.0}
+      Resultado da multiplicação: {'result': 42.0}
+      Request Status Code (realizar_operacao): 200
+      Response Content: {"result":5.0}
 
-Resultado da multiplicação: {'result': 42.0}
-Request Status Code (realizar_operacao): 200
-Response Content: {"result":5.0}
+      Resultado da divisão: {'result': 5.0}
 
-Resultado da divisão: {'result': 5.0}
-
-## Estrutura do Código
+### Estrutura do Código
 - listar_operacoes: Envia uma requisição GET para obter as operações disponíveis.
 - realizar_operacao: Envia uma requisição POST para realizar uma operação específica (soma, subtração, multiplicação ou divisão).
 - main: Função principal que executa o fluxo de listagem de operações e realiza algumas operações de exemplo.
